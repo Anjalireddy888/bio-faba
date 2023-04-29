@@ -134,7 +134,7 @@ ScrollReveal({
     delay:200
 });
 
-ScrollReveal().reveal('.home-content, .heading,.people,.members,.thinktank,.media,.knowus  ', { orgin:'top'});
-ScrollReveal().reveal('events.container' , { orgin:'bottom'});
+ScrollReveal().reveal('.home-content, .heading, ', { orgin:'top'});
+ScrollReveal().reveal('events.container,.people,.members,.thinktank,.media,.knowus' , { orgin:'bottom'});
 ScrollReveal().reveal('.home-content h1,', { orgin:'left'});
 ScrollReveal().reveal('.home-content p, ', { orgin:'right'});
